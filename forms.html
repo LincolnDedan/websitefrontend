@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+</head>
+<body>
+    <form>
+       <label for="name">Username</label>
+       <input type="text" id="name" placeholder="Enter your name">
+       <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" aria-describedby="password-hint"/>
+        <div id="password-hint">
+            Password must be atleast more than 8 characters
+        </div>
+         <br>
+        <label>Choose your payment method</label>
+
+        <input type="radio" id="bitcoin" name="paymentmethod" value="bitcoin">
+        <label for="bitcoin">Bitcoin</label>
+        <input type="radio" id="paypal" name="paymentmethod" value="paypal">
+        <label for="paypal">Paypal</label>
+        <input type="radio" id="mpesa" name="paymentmethod" value="mpesa">
+        <label for="mpesa">Mpesa</label>
+
+        <br>
+        <label>Select your intrests</label>
+        <input type="checkbox" id="music" name="intrest" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="swimming" name="interest" value="swimming">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" id="dancing" name="intrest" value="dancing">
+        <label for="dancing">Dancing</label>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="cancel">Cancel</button>
+        <br>
+
+
+    </form>
+</body>
+</html>
